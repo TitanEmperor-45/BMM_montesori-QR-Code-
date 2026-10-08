@@ -1,0 +1,6 @@
+{
+  "name": "BMM-Montessori Soweto Hub & QR Generator",
+  "description": "Custom QR code generator, admissions portal, school tour booking, and inquiry management hub for BMM-Montessori Soweto.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
