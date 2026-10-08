@@ -9,35 +9,35 @@ export const INITIAL_FLYERS: FlyerItem[] = [
   {
     id: 'flyer-1',
     title: 'Registration Now Open for 2027',
-    subtitle: 'The FIRST Inclusive Montessori School in the Township!',
-    description: 'Proudly Local • Legit • Authentic • Compliant. Women Owned certified business, Gauteng Department of Education (GDE) member, and South African Montessori Association (SAMA) accredited member.',
+    subtitle: 'BE MY MOM MONTESSORI • The FIRST Inclusive Montessori School in the Township!',
+    description: 'Proudly Local • Legit • Authentic • Compliant. Women Owned (Certified Women-Owned Business). Gauteng Department of Education Member (Registered & Recognized by GDE). South African Montessori Association Member (Accredited Member — Member Standards Compliant).',
     imageUrl: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80',
-    tag: '2027 Admissions',
+    tag: '2027 Registration',
     targetUrl: 'https://BMMmontesori.netlify.app/registration'
   },
   {
     id: 'flyer-2',
-    title: 'School Viewing Tours & Open Days',
-    subtitle: 'Weekends Now Open for Viewing: Oct 10-11 | 17-18 | 24-25',
-    description: 'Catch a glimpse of children in their natural learning environment (09:00AM - 11:00AM). Weekdays Tue & Thu by appointment at Funda Community College, Diepkloof Zone 6, Soweto. Contact Mapule Chuene: 082 228 5300 | Zani Jacobs WhatsApp: 081 497 7181.',
+    title: 'School Viewing Tours — Now Open on Weekends',
+    subtitle: 'Viewing Times: Weekends Sat & Sun 09:00AM - 11:00AM | Dates: October 10-11 | 17-18 | 24-25',
+    description: 'Don\'t miss out! Have a peek at our children in their natural learning environment. Weekdays: Tuesdays & Thursdays 10:00 - 11:00 (By appointment only). Mapule Chuene 082 228 5300 | Zani Jacobs WhatsApp 081 497 7181 | bmmkidshotel@gmail.com. Location: Funda Community College.',
     imageUrl: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=80',
-    tag: 'School Tours',
+    tag: 'Viewing Tours',
     targetUrl: 'https://BMMmontesori.netlify.app/#tour'
   },
   {
     id: 'flyer-3',
-    title: 'Be Part of Our Class',
-    subtitle: 'Authentic Montessori learning environment in Soweto',
-    description: 'Individualised, child-centred learning with small classes. Practical Life, Sensorial, Language, Mathematics & Cultural Studies. Contact Maria Chuene: 082 228 3500 | Zani Jacobs: 068 933 7112.',
+    title: 'Be Part of Our Class (2027 Registration Open)',
+    subtitle: 'Contact Us: Maria Chuene 082 228 3500 | Zani Jacobs 068 933 7112 (calls) / 081 497 7181 (whatsapp)',
+    description: 'Why Us: Authentic Montessori learning environment, Individualised child-centred learning, Small classes and personalised attention, Practical Life - Sensorial - Language - Mathematics - Cultural Studies, Caring & nurturing environment. Limited spaces available for 2027!',
     imageUrl: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80',
-    tag: 'Our Class',
+    tag: 'Why Us',
     targetUrl: 'https://BMMmontesori.netlify.app/registration'
   },
   {
     id: 'flyer-4',
-    title: 'Registration Special & Open Days 2026',
-    subtitle: 'Reduced Registration Fee Valid 10th October - 10th November!',
-    description: 'Come and experience Montessori education in the heart of Soweto at Funda Community College, 8642 Diepkloof Zone 6. Contact Mapule Chuene 082 228 5300 | Zani Jacobs 081 497 7181.',
+    title: 'Registration Special! Valid 10th October - 10th November',
+    subtitle: 'Be My Mom Montessori Open Days 2026 (Saturdays & Sundays 09:00AM - 11:00AM)',
+    description: 'Join us for a fun-filled and educational experience at our pre-school open days. Meet our dedicated teachers, explore our state-of-the-art facilities. Location: Funda Community College, 8642, Diepkloof Zone 6, Soweto. Mapule Chuene 082 228 5300 | Zani Jacobs WhatsApp 081 497 7181.',
     imageUrl: 'https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?auto=format&fit=crop&w=800&q=80',
     tag: 'Registration Special',
     targetUrl: 'https://BMMmontesori.netlify.app/registration'
@@ -46,15 +46,15 @@ export const INITIAL_FLYERS: FlyerItem[] = [
 
 export const INITIAL_QR_ITEMS: QrItem[] = [
   {
-    id: 'qr-1',
-    title: 'Main School Website',
+    id: 'master-hub-qr',
+    title: 'Master Hub (All Flyers, Tours & Links in One)',
     category: 'website',
     url: 'https://BMMmontesori.netlify.app/',
-    description: 'Official portal for BMM-Montessori Soweto',
-    qrColor: '#1e3a8a',
+    description: 'Single Master QR Code containing all 4 flyers, social links, calendar & registration',
+    qrColor: '#047857',
     bgColor: '#ffffff',
-    frameText: 'Scan to Visit Website',
-    scanCount: 1420
+    frameText: 'Scan for BMM-Montessori Master Hub',
+    scanCount: 3410
   },
   {
     id: 'qr-2',
